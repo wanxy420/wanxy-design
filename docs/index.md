@@ -16,7 +16,7 @@ hero:
       link: https://github.com/wanxy420/wanxy-design
     - theme: alt
       text: NPM
-      link: https://www.npmjs.com/package/wanxy-plus
+      link: https://www.npmjs.com/package/wanxy-design
 features:
   - icon: 📦
     title: 更多原生封装组件
