@@ -1,12 +1,12 @@
 ---
 layout: home
 title: wanxy-design
-titleTemplate: 组件库开发起始模板
+titleTemplate: 组件库
 
 hero:
   name: wanxy-design
-  text: 组件库开发解决方案
-  tagline: Vue3 + Vite + ts + sass / less
+  text: 个人二次封装组件库
+  tagline: Vue3 + Vite + ts + sass
   actions:
     - theme: brand
       text: Get Started
