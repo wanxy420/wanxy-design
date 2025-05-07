@@ -1,6 +1,6 @@
 {
   "name": "wanxy-design",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "基于element-plus二次封装的组件库",
   "keywords": [
     "components",
@@ -9,10 +9,16 @@
     "element-plus"
   ],
   "type": "module",
-  "main": "dist/lib/index.js",
-  "module": "dist/es/index.js",
-  "types": "dist/lib/index.d.ts",
-  "exports": {},
+  "main": "./dist/lib/index.js",
+  "module": "./dist/es/index.js",
+  "types": "./dist/lib/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/lib/index.js",
+      "require": "./dist/es/index.js",
+      "types": "./dist/lib/index.d.ts"
+    }
+  },
   "scripts": {
     "build": "gulp -f packages/script/build/index.ts",
     "component:create": "esno ./utils/create/index.ts",
