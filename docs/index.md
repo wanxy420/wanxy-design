@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/features
+      link: /guide/started
     - theme: alt
       text: GitHub
       link: https://github.com/wanxy420/wanxy-design
