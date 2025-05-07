@@ -4,7 +4,7 @@ import { sidebar } from './config/sidebar'
 export default defineConfig({
   title: `wanxy-design`,
   description: "wanxy-design",
-  base: "/wanxy-design/",
+  // base: "/wanxy-design/",
   head: [["link", { rel: "icon", type: "image/svg+xml", href: "logo.svg" }]],
   themeConfig: {
     footer: {
