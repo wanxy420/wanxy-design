@@ -2,7 +2,7 @@
  * @Author: wanxy420
  * @Description: 
  * @Date: 2025-04-30 15:27:14
- * @LastEditTime: 2025-05-06 17:18:27
+ * @LastEditTime: 2025-05-07 11:52:45
  * @FilePath: \wanxy-design\packages\components\src\ContextMenu\src\ContextMenu.vue
 -->
 <script setup lang="ts">
@@ -54,7 +54,6 @@ nextTick(() => {
 
     nextTick(() => {
       if (!menuRef.value) return;
-      console.log(e);
       menuRef.value.style.top = e.pageY + "px";
       menuRef.value.style.left = e.pageX + "px";
       visible.value = true;
@@ -125,7 +124,6 @@ $borderRadius: 4px;
 }
 
 .menu-item {
-  width: 100%;
   text-align: center;
   padding: 6px 8px;
   font-size: 13px;
