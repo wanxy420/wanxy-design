@@ -19,7 +19,7 @@ export default defineConfig({
         items: [
           {
             text: "Github",
-            link: "https://github.com/windlil/vuecomp-starter",
+            link: "https://github.com/wanxy420/wanxy-design",
           },
           {
             items: [
