@@ -1,0 +1,37 @@
+$primary: #409eff;
+$borderRadius: 4px;
+
+.wxy-context-menu {
+  display: block;
+  width: fit-content;
+  height: fit-content;
+}
+
+.wxy-menu-body {
+  min-width: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  border: 1px solid #ddd;
+  border-radius: $borderRadius;
+  padding: 4px;
+  background-color: #fff;
+  transition: max-height 300ms;
+  overflow: hidden;
+}
+
+.menu-item {
+  text-align: center;
+  padding: 6px 8px;
+  font-size: 13px;
+  color: #333;
+  cursor: pointer;
+  border-radius: $borderRadius;
+  transition: all 300ms;
+
+  &:hover {
+    background-color: rgba($primary, 0.2);
+    color: $primary;
+  }
+}
