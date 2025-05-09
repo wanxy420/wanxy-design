@@ -8,3 +8,4 @@
 export * from "./ContextMenu/index";
 
 export * from './TextContent/index';
+export * from './JsonView/index';

@@ -1,0 +1,16 @@
+@import "../../../../style/var.scss";
+
+.wxy-json-view {
+  padding: 0 $contentPadding;
+  display: contents;
+}
+
+.array-item ~ .array-item {
+  &::before {
+    content: ",";
+  }
+}
+
+.json-view-item {
+  padding: 0 $contentPadding;
+}
