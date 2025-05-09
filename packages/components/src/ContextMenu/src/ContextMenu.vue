@@ -100,5 +100,5 @@ watch(
 </template>
 
 <style lang="scss" scoped>
-@import "./style/index.scss";
+@import url(./style/index.scss);
 </style>

@@ -1,0 +1,15 @@
+@import "../../../../style/var.scss";
+
+.wxy-text-content {
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 14px;
+
+  @each $type, $item in $typeColorMap {
+    &[type="#{$type}"] {
+      color: $item;
+      border: 1px solid $item;
+      background-color: rgba($item, 0.3);
+    }
+  }
+}

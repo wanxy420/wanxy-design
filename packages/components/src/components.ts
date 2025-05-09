@@ -6,3 +6,5 @@
  * @FilePath: \wanxy-design\packages\components\src\components.ts
  */
 export * from "./ContextMenu/index";
+
+export * from './TextContent/index';
